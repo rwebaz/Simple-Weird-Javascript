@@ -1,4 +1,4 @@
-// Weird-js Tutorial
+// Weird-js Tutorial: Var If Else Triple Equals
 var c;
 c = "Hello There!";
 
@@ -9,10 +9,10 @@ function a() {
 
 function b() {
  "use strict";
- if (c !== undefined) {
-  console.log("The variable 'c' is de-fined!");
- } else {
+ if (c === undefined) {
   console.log("The variable 'c' is un-de-fined!");
+ } else {
+  console.log("The variable 'c' is de-fined!");
  }
 }
 

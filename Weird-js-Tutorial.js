@@ -1,21 +1,17 @@
 // Weird-js Tutorial
-var c;
-c = "Hello There!";
+function b() {
+ "use strict";
+ var myVar;
+ console.log(myVar);
+}
 
 function a() {
  "use strict";
- console.log("The function named 'a' has been called!");
+ var myVar = 2;
+ console.log(myVar);
+ b();
 }
 
-function b() {
- "use strict";
- if (c === undefined) {
-  console.log("The variable 'c' is un-de-fined!");
- } else {
-  console.log("The variable 'c' is de-fined!");
- }
-}
-
+var myVar = 1;
+console.log(myVar);
 a();
-b();
-console.log(c);
