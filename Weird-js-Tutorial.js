@@ -1,17 +1,19 @@
 // Weird-js Tutorial
+var x;
+
 function b() {
- "use strict";
- var myVar;
- console.log(myVar);
+	"use strict";
+	var x;
+	console.log(x);
 }
 
 function a() {
- "use strict";
- var myVar = 2;
- console.log(myVar);
- b();
+	"use strict";
+	var x = 2;
+	console.log(x);
+	b();
 }
 
-var myVar = 1;
-console.log(myVar);
+x = 1;
+console.log(x);
 a();
