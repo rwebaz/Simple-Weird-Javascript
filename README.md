@@ -1,2 +1,2 @@
 # Weird-Javascript
-A repo displaying the weird parts of javascript
+A repo displaying the simple, yet weird parts of javascript
