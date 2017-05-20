@@ -1,2 +1,2 @@
-// Weird js Tutorial
+// Name of Javascript Lesson
 "use strict";
