@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Simple Weird Javascript
 email: mminail@icloud.com
-description: A GitHub repo Displaying the Weird Parts of Javascript Through the Open Source Brackets IDE
+description: A GitHub repo Displaying the Simple, yet Weird Parts of Javascript through the Open Source Brackets IDE
 baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://rwebaz/github.io/Simple-Weird-Javascript"
 twitter_username: rwebaz
