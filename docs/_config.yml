@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Simple Weird Javascript
+title: Simple Weird Javascript Project
 email: mminail@icloud.com
 description: A GitHub repo Displaying the Simple, yet Weird Parts of Javascript through the Open Source Brackets IDE
 baseurl: "/docs" # the subpath of your site, e.g. /blog
-url: "https://rwebaz/github.io/Simple-Weird-Javascript"
+url: "https://rwebaz/github.io/Simple-Weird-Javascript-Project"
 twitter_username: rwebaz
 github_username:  rwebaz
 #
