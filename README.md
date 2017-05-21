@@ -1,2 +1,3 @@
 # Simple-Weird-Javascript
-A repo displaying the simple, yet weird parts of javascript using the Brackets IDE
+
+A GitHub repo Displaying the Simple, yet Weird Parts of Javascript through the Open Source Brackets IDE
