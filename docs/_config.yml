@@ -16,8 +16,9 @@
 title: Simple Weird Javascript Project
 email: mminail@icloud.com
 description: A GitHub repo Displaying the Simple, yet Weird Parts of Javascript through the Open Source Brackets IDE
-baseurl: "/docs" # the subpath of your site, e.g. /blog
-url: "https://rwebaz/github.io/Simple-Weird-Javascript-Project"
+# The 'baseurl' is the subpath of your website, e.g. /blog
+baseurl: "/docs" 
+url: "rwebaz/github.io"
 twitter_username: rwebaz
 github_username:  rwebaz
 #
