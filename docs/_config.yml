@@ -23,8 +23,8 @@ author:
     github_username: "mminail"
     twitter_username: "mminail"
 # The 'baseurl' is the subpath of your website, e.g. /blog
-baseurl: "/docs" 
-url: "rwebaz/github.io"
+baseurl: "/Simple-Weird-Javascript-Project"
+url: "https://rwebaz.github.io"
 exclude: ['README.md']
 markdown: "kramdown"
 highlighter: "rouge"
