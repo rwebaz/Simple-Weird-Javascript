@@ -1,5 +1,5 @@
 ---
-title: Home Page
+title: Home Page | SWJP
 layout: default
 ---
 # GFM GitHub Flavored Markdown Tips
