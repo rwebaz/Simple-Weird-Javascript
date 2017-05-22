@@ -1,31 +1,73 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Simple Weird Javascript Project
-email: mminail@icloud.com
-description: A GitHub repo Displaying the Simple, yet Weird Parts of Javascript through the Open Source Brackets IDE
+#
+# Note. Site settngs are used to personalize your new site.
+# If you look in the accompanyong Html files, you will see the site settings accessed via liquid variabls, as follows:
+# {{ site.title }},
+# {{ site.email }},
+# and so on.
+#
+# You can create any custom liquid variable you would like ...
+# And the custom liquid variable will be accessible in the Html templates ...
+# Via the liquid variable format, as follows:
+# {{ site.myvariable }}
+#
+# github: [metadata]
+theme: "jekyll-theme-cayman"
+# repository: rwebaz/Simple-Weird-Javascript-Project
+title: "Simple Weird Javascript Project"
+tagline: "A GitHub repo Displaying the Simple, yet Weird Parts of Javascript through the Open Source Brackets IDE"
+description: "A GitHub repo Displaying the Simple, yet Weird Parts of Javascript through the Open Source Brackets IDE"
+author:
+    name: "Robert Weber, Director"
+    email: "mminail@icloud.com"
+    github_username: "mminail"
+    twitter_username: "mminail"
 # The 'baseurl' is the subpath of your website, e.g. /blog
 baseurl: "/docs" 
 url: "rwebaz/github.io"
-twitter_username: rwebaz
-github_username:  rwebaz
-#
-# Build settings
 exclude: ['README.md']
-markdown: kramdown
-theme: jekyll-theme-cayman
+markdown: "kramdown"
+highlighter: "rouge"
+kramdown:
+    input: "GFM"
+    hard_wrap: "false"
+    syntax_highlighter: "rouge"
+    math_engine: "mathjax"
+timezone: "America/Phoenix"
+google_analytics: [UA-44765001-9]
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: "true"
+defaults:
+  - scope:
+      path: "assets/ico"
+    values:
+      image: "true"
+defaults:
+  - scope:
+      path: "" 
+      type: "pages"
+    values:
+      layout: "default"
+      author: "Robert Weber, Director"
+defaults:
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: "default" 
+      author: "Robert Weber, Director"
+collections:
+  collection_CFFP:
+    output: "true"
+defaults:
+  - scope:
+      path: ""
+      type: "collection_CFFP"
+    values:
+      layout: "page"
 gem:
   - jekyll-feed
 exclude:
