@@ -1,6 +1,7 @@
 ---
-title: Let Functions Become Arrows
+title: Arrow Functions | SWJP
 layout: default
+navigation_weight: 2
 ---
 # Let Functions Become Arrows
 
