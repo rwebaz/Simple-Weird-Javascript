@@ -4,7 +4,6 @@
 /* @import 'jekyll-theme-cayman'; */
 @import "{{ site.theme }}";
 
-
 /* Page Header From theme */
 .page-header {
   color: $header-heading-color;
@@ -94,7 +93,7 @@ nav.nav-primary ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	float: right;
+	/* float: right; */
 }
 
 nav.nav-primary li,
