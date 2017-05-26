@@ -1,9 +1,9 @@
 ---
+
 ---
-
 /* @import 'jekyll-theme-cayman'; */
-
 @import "{{ site.theme }}";
+
 
 /* Page Header From theme */
 .page-header {
@@ -25,6 +25,28 @@
   }
 }
 /* End Page Header From theme */
+
+/* Set the color of the anchor links */
+a {
+    text-decoration: none;
+    background-color: #FFF;
+}
+
+a.active {
+	color: #DC143C; /* Crimson Red */
+}
+
+a[href^="https:"] {
+    font-family: 'eurostyle';
+    font-size: 1.25em;
+    color: #004B23; /* Forest Green */
+    letter-spacing: 1px;
+}
+
+a[href^="http:"] {
+    color: rgb(207,103,75); /* Indian Red */ 
+}
+/* End Setting the color of the anchor links */
 
 /* Set the Rule for a Custom hard return tag */
 .green-groove {
@@ -66,3 +88,21 @@ img {
     max-width: 100%;
     }
 /* End the collapsable Responsive Image */
+
+/* Set the Primary Nav*/
+nav.nav-primary ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+}
+
+nav.nav-primary li,
+nav.nav-primary a {
+	display: inline-block;
+}
+
+nav.nav-primary li a {
+	padding: 10px;
+}
+/* End Setting the Primary Nav*/
