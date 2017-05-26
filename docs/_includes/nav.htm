@@ -21,9 +21,9 @@
     <!-- Note. Substituting navigation_pages for site dot pages in for loop -->
     {% for p in navigation_pages %}
       {% if p.navigation_weight %}
-        <li class="btn hov">
+        <li class="{% if p.url == page.url %}active{% endif %}">
           <!-- Note. Substituting site.github.url for site.baseurl within the liquid for statement -->
-          <a href="{{ p.url | prepend: site.github.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+          <a class="btn" href="{{ p.url | prepend: site.github.url }}">
             {{ p.title }}
           </a>
         </li>
