@@ -1,6 +1,7 @@
 ---
 title: Home Page | SWJP
 layout: default
+navigation_weight: 1
 ---
 # GFM GitHub Flavored Markdown Tips
 
