@@ -16,9 +16,9 @@
 	<hr class='green-groove' /> -->
 
 <nav class="nav-primary" role="navigation">
-  <ul class="hov">
+  <ul>
     {% for p in site.pages %}
-    <li>
+    <li class="btn hov">
       <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url | prepend: site.github.url }}">{{ p.title }}</a>
     </li>
     {% endfor %}
