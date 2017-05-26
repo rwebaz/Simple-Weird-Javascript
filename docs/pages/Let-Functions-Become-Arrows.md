@@ -53,7 +53,9 @@ As follows:
 let d = () => "High Ya'll Twice!";
 ```
 
-To execute any or all of the above functions in your browser console, type:
+To execute any or all of the above functions ...
+
+Simply copy and paste the function into your browser console, and type one of the following commands:
 
 ```Javascript
 a();
@@ -61,3 +63,5 @@ b();
 c();
 d();
 ```
+
+**Note.** The act of first copying the function to your browser console will return undefined. However, when you secondly enter the respective execution command for the function and hit enter, the result of the function will appear in the console.
