@@ -16,23 +16,27 @@ function a() {
 
 Here, the variable a is declared simultaneous with the function statement and becomes a representative of the function.
 
-## How to translate a standard function in Javascript to an Arrow function
+## How to change a standard function in Javascript into an Arrow function
 
-- **Rule.** Leap frog the argument undefined with the keyword function and in the process change the keyword function into the new arrow function, as follows:
+- **Rule.** Leap frog the argument undefined `()` from left-to-right with the keyword `function` and in the process change the keyword `function` into the new Arrow function `=>`, as follows:
 
-- First, declare a global variable b
+First, declare a global variable `b` ...
 
 ```Javascript
 var b;
 ```
 
-Next, set a standard anonymous Javascript function equal to the declared global variable b, as follows:
+Next, set a standard anonymous Javascript function equal to the declared global variable `b`, as follows:
 
 ```Javascript
 b = function () {}
 ```
 
-Now, leapfrog the argument undefined using the keyword function and in the process ... Magically change the keyword function into the arrow function, as follows:
+Now, leapfrog the argument undefined `()` from left-to-right with the keyword `function`...
+
+And, in the process ...
+
+Magically change the keyword `function` into an Arrow function `=>`, as follows:
 
 ```Javascript
 b = () => {
@@ -41,7 +45,7 @@ b = () => {
 }
 ```
 
-Note. If the function body {...} contains a simple return statement only, then curly braces may be omitted, as well.
+**Note.** If the function body {...} contains a simple `return` statement only, then the set of curly braces {...} may be omitted, as well.
 
 ```Javascript
 let c = function () { return "High Ya'll Once!"; }
@@ -53,9 +57,9 @@ As follows:
 let d = () => "High Ya'll Twice!";
 ```
 
-To execute any or all of the above functions ...
+To execute any or all of the above functions:
 
-Simply copy and paste the function into your browser console, and type one of the following commands:
+Simply *copy and paste* the function into your browser `console`, and type one of the following execution commands:
 
 ```Javascript
 a();
@@ -64,4 +68,10 @@ c();
 d();
 ```
 
-**Note.** The act of first copying the function to your browser console will return undefined. However, when you secondly enter the respective execution command for the function and hit enter, the result of the function will appear in the console.
+**Note.** The act of first *copying the function* to your browser `console` will return `undefined`.
+
+However, when you subsequently *enter* the respective execution command for the function into the `console` ...
+
+And, then *press the Enter key* ...
+
+The `result` of the function will then appear in the `console`.

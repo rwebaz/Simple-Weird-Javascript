@@ -28,11 +28,6 @@
 /* Set the color of the anchor links */
 a {
     text-decoration: none;
-    background-color: #FFF;
-}
-
-a.active {
-	color: #DC143C; /* Crimson Red */
 }
 
 a[href^="https:"] {
@@ -44,6 +39,14 @@ a[href^="https:"] {
 
 a[href^="http:"] {
     color: rgb(207,103,75); /* Indian Red */ 
+}
+
+li.active a {
+	color: #DC143C; /* Crimson Red */
+}
+
+.btn {
+    color: dodgerblue;
 }
 /* End Setting the color of the anchor links */
 
@@ -102,6 +105,7 @@ nav.nav-primary a {
 }
 
 nav.nav-primary li a {
-	padding: 10px;
+    background-color:rgba(255, 255, 255, 0.7);
+	padding: 1%;
 }
 /* End Setting the Primary Nav*/
