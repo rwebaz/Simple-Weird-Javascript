@@ -33,7 +33,7 @@ a {
 a[href^="https:"] {
     font-family: 'eurostyle';
     font-size: 1.25em;
-    color: #004B23; /* Forest Green */
+    color: dodgerblue;
     letter-spacing: 1px;
 }
 
@@ -43,9 +43,11 @@ a[href^="http:"] {
 
 li.active a {
 	color: #DC143C; /* Crimson Red */
+    
 }
 
 .btn {
+    /* color: #004B23; Forest Green */
     color: dodgerblue;
 }
 /* End Setting the color of the anchor links */
