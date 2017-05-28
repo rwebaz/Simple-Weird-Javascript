@@ -155,7 +155,7 @@ What follows is a "live" rendition of all of the highlighted example components 
 
 {% for tab in site.data.tabs.reps %}
 
-- {{ 'Arizona State Representative' }} {{ tab.lastName }}: {% if tab.vote == true %}{{'Yea'}}{% else if tab.vote == false %}{{'Nay'}}{% else if vote = "nv" %}{{'Abstain'}}
+- {{ 'Arizona State Representative' }} {{ tab.lastName }}: {% if tab.vote == true %}{{'Yea'}}{% else if tab.vote == false %}{{'Nay'}}{% else if vote = 0 %}{{'Abstain'}}
 
 {% endif %}
 
@@ -179,7 +179,7 @@ Well, it goes a-like this ...
 {% raw %}
 {% for tab in site.data.tabs.reps %}
 
-- {{ 'Arizona State Representative' }} {{ tab.lastName }}: {% if tab.vote == true %}{{'Yea'}}{% else if tab.vote == false %}{{'Nay'}}{% else if vote == "nv" %}{{'Abstain'}}
+- {{ 'Arizona State Representative' }} {{ tab.lastName }}: {% if tab.vote == true %}{{'Yea'}}{% else if tab.vote == false %}{{'Nay'}}{% else if vote == 0 %}{{'Abstain'}}
 
 {% endif %}
 

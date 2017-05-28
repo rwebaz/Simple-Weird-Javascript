@@ -2,6 +2,6 @@
 {"reps":[
   { "lastName" : "Allen", "vote" : true },
   { "lastName" : "Alston", "vote" : false },
-  { "lastName" : "Andrade", "vote" : "nv" },
+  { "lastName" : "Andrade", "vote" : 0 },
   { "lastName" : "Barton", "vote" : true }
 ]}
