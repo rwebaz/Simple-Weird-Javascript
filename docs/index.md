@@ -1,5 +1,5 @@
 ---
-title: Home Page | SWJP
+title: Home Page
 layout: default
 navigation_weight: 1
 ---

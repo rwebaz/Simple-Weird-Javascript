@@ -1,5 +1,5 @@
 ---
-title: Arrow Functions | SWJP
+title: Arrow Functions
 layout: default
 navigation_weight: 2
 ---
