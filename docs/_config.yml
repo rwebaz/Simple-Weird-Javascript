@@ -1,16 +1,5 @@
 # Site settings
 #
-# Note. Site settngs are used to personalize your new site.
-# If you look in the accompanyong Html files, you will see the site settings accessed via liquid variabls, as follows:
-# {{ site.title }},
-# {{ site.email }},
-# and so on.
-#
-# You can create any custom liquid variable you would like ...
-# And the custom liquid variable will be accessible in the Html templates ...
-# Via the liquid variable format, as follows:
-# {{ site.myvariable }}
-#
 # github: [metadata]
 theme: "jekyll-theme-cayman"
 # repository: rwebaz/Simple-Weird-Javascript-Project
