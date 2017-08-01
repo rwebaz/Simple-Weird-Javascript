@@ -1,18 +1,22 @@
 # Site settings
 #
+# Date of this Update to Config-template file ver 07-29-2017
+#
 # github: [metadata]
 theme: "jekyll-theme-cayman"
-# repository: rwebaz/Simple-Weird-Javascript-Project
-title: "Simple Weird Javascript Project"
-tagline: "A GitHub repo Displaying the Simple, yet Weird Parts of Javascript through the Open Source Brackets IDE"
-description: "A GitHub repo Displaying the Simple, yet Weird Parts of Javascript through the Open Source Brackets IDE"
+# repository: rwebaz/Javascript-Lessons-Project
+title: "Javascript Lessons Project"
+tagline: "A GitHub repo of Javascript Lessons displaying the simple ( and, sometimes weird ) parts of Javascript through the Open Source Brackets IDE"
+description: "A GitHub repo of Javascript Lessons displaying the simple ( and, sometimes weird ) parts of Javascript through the Open Source Brackets IDE"
 author:
     name: "Robert Weber, Director"
     email: "mminail@icloud.com"
     github_username: "mminail"
     twitter_username: "mminail"
+twitter:
+    username: "mminail"
 # The 'baseurl' is the subpath of your website, e.g. /blog
-baseurl: "/Simple-Weird-Javascript-Project"
+baseurl: "/Javascript-Lessons-Project"
 url: "https://rwebaz.github.io"
 exclude: ['README.md']
 markdown: "kramdown"
@@ -36,6 +40,11 @@ defaults:
       image: "true"
 defaults:
   - scope:
+      path: ""
+    values:
+      image: /assets/img/medmjorg-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png
+defaults:
+  - scope:
       path: "" 
       type: "pages"
     values:
@@ -54,11 +63,26 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "collection_CFFP"
+      type: "collection_LLP"
     values:
       layout: "page"
-gem:
+gems:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
+
+
+
+
+
+
+
+
+
+
+
+
+

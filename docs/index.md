@@ -3,31 +3,31 @@ title: Home Page
 layout: default
 navigation_weight: 1
 ---
-# GFM GitHub Flavored Markdown Tips
+# Home Page
 
-See: [Jekyll Themes] <https://jekyllrb.com/docs/themes/#overriding-theme-defaults>
+A GitHub repo of Javascript Lessons displaying the simple ( and, sometimes weird ) parts of Javascript through the Open Source Brackets IDE
 
-Here, enveloping the URL in a standard set of angle brackets `<...>` creates a 'Non-bare URL', as follows:
+## Table O Contents
 
-```yaml
-<https://jekyllrb.com/docs/themes/#overriding-theme-defaults>
-```
+- TOC
+{:toc}
 
-Notice, however, the preceding text though enveloped in a set of standard brackets `[...]` is not enabled ( clickable ).
+## Solution
 
-**Issue**. How do we enable the preceding text in a **GFM** GitHub Flavored Markdown `(.md)` file and thereby make the 'Non-bare URL' clickable via the preceding text only?
+Expound the solution ...
 
-**Solution**. Wrap the URL in a set of standard parenthesis `(...)`, as follows:
+## The Code
 
-```yaml
-See: [Jekyll Themes](https://jekyllrb.com/docs/themes/#overriding-theme-defaults)
-```
+Highlight the code ...
 
-**Live**:
+## Summation
 
-See: [Jekyll Themes](https://jekyllrb.com/docs/themes/#overriding-theme-defaults)
+Delineate the steps ...
 
-**Issue**. How do we force a new target blank when clicking on a **GFM** hyperlink?
+## Live
 
-**Solution**. More to come ...
+Render the code live
 
+***
+
+**Source**: [Narrative Economics by Robert Shiller, Jan #2017](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}

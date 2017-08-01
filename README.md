@@ -1,3 +1,3 @@
-# Simple-Weird-Javascript
+# Javascript-Lessons-Project
 
-A GitHub repo Displaying the Simple, yet Weird Parts of Javascript through the Open Source Brackets IDE
+A GitHub repo of Javascript Lessons displaying the simple ( and, sometimes weird ) parts of Javascript through the Open Source Brackets IDE
