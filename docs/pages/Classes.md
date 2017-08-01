@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Classes | MMINAIL
+title: MMINAIL Classes
 navigation_weight: 9
 ---
 # Classes

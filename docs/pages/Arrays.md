@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Arrays | MMINAIL
+title: MMINAIL Arrays
 navigation_weight: 9
 ---
 # Arrays

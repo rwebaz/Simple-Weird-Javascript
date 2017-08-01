@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Objects | MMINAIL
+title: MMINAIL Objects
 navigation_weight: 9
 ---
 # Objects
