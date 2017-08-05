@@ -1,9 +1,18 @@
 ---
 title: Arrow Functions
 layout: default
-navigation_weight: 2
+navigation_weight: 9
 ---
-# Let Functions Become Arrows
+# Arrow Functions
+
+Place the introducing line of text ie.) the 'tagline' here ...
+
+## Table O Contents
+
+- TOC
+{:toc}
+
+## Let Functions Become Arrows
 
 A standard named function in Javascript looks like this ...
 
@@ -75,3 +84,17 @@ However, when you subsequently *enter* the respective execution command for the 
 And, then *press the Enter key* ...
 
 The `result` of the function will then appear in the `console`.
+
+## Raw Code
+
+More to come ...
+
+```liquid
+{% raw %}
+`...`
+{% endraw %}
+```
+
+***
+
+**Source**: [Project Source Links](https://rwebaz.github.io/Zazzle-Hempaz-Project/pages/Source-Links.html){:target="_self"). Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:target="_blank"}.
