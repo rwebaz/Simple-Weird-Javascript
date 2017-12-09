@@ -6,8 +6,8 @@
 theme: "jekyll-theme-cayman"
 # repository: rwebaz/Javascript-Lessons-Project
 title: "Javascript Lessons Project"
-tagline: "A GitHub repo of Javascript Lessons displaying the simple ( and, sometimes weird ) parts of Javascript through the Open Source Brackets IDE"
-description: "A GitHub repo of Javascript Lessons displaying the simple ( and, sometimes weird ) parts of Javascript through the Open Source Brackets IDE"
+tagline: "A GitHub repo of Javascript Lessons featuring the Open Source Brackets IDE"
+description: "A GitHub repo of Javascript Lessons displaying the simple and sometimes weird parts of Javascript through the Open Source Brackets IDE"
 author:
     name: "Robert Weber, Director"
     email: "mminail@icloud.com"

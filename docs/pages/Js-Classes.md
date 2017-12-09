@@ -1,9 +1,9 @@
 ---
 layout: default
-title: MMINAIL Classes
+title: Js Classes
 navigation_weight: 9
 ---
-# Classes
+# Js Classes
 
 ```javascript
 {% raw %}

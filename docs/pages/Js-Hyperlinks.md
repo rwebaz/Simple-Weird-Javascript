@@ -1,6 +1,6 @@
 ---
-title: Hyperlink Options
 layout: default
+title: Js Hyperlinks
 categories: Javascript Lessons
 navigation_weight: 9
 ---
