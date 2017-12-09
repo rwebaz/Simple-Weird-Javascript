@@ -1,9 +1,9 @@
 ---
 layout: default
-title: MMINAIL Arrays
+title: Js Arrays
 navigation_weight: 9
 ---
-# Arrays
+# Js Arrays
 
 ```javascript
 {% raw %}

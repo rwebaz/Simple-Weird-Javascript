@@ -1,9 +1,9 @@
 ---
 layout: default
-title: MMINAIL Objects
+title: Js Objects
 navigation_weight: 9
 ---
-# Objects
+# Js Objects
 
 ```javascript
 {% raw %}
