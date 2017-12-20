@@ -1,22 +1,23 @@
 # Site settings
 #
-# Date of this Update to Config-template file ver 07-29-2017
+# Date of this Update to Config-template file ver 12-18-2017
 #
 # github: [metadata]
 theme: "jekyll-theme-cayman"
-# repository: rwebaz/Javascript-Lessons-Project
+# repository: https://www.github.com/rwebaz/Javascript-Lessons-Project
 title: "Javascript Lessons Project"
 tagline: "A GitHub repo of Javascript Lessons featuring the Open Source Brackets IDE"
 description: "A GitHub repo of Javascript Lessons displaying the simple and sometimes weird parts of Javascript through the Open Source Brackets IDE"
+twitter:
+    username: "mminail"
 author:
     name: "Robert Weber, Director"
     email: "mminail@icloud.com"
     github_username: "mminail"
     twitter_username: "mminail"
-twitter:
-    username: "mminail"
-# The 'baseurl' is the subpath of your website, e.g. /blog
+# The 'baseurl' is the subpath of your designated project, e.g. /Liquid-Lessons-Project
 baseurl: "/Javascript-Lessons-Project"
+# The 'url' is the parental web address of your designated project, e.g. /https://rwebaz.github.io
 url: "https://rwebaz.github.io"
 exclude: ['README.md']
 markdown: "kramdown"
@@ -35,14 +36,14 @@ defaults:
       image: "true"
 defaults:
   - scope:
-      path: "assets/ico"
+      path: "assets/img/png"
     values:
       image: "true"
 defaults:
   - scope:
-      path: ""
+      path: "assets/img/svg"
     values:
-      image: /assets/img/medmjorg-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-100-x-100.png
+      image: "true"
 defaults:
   - scope:
       path: "" 
@@ -66,23 +67,10 @@ defaults:
       type: "collection_LLP"
     values:
       layout: "page"
-gems:
+plugins_dir:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
-
-
-
-
-
-
-
-
-
-
-
-
-
