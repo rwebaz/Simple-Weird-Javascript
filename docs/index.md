@@ -3,31 +3,63 @@ title: Home Page
 layout: default
 navigation_weight: 1
 ---
-# Home Page
+# Javascript Lessons Project Home Page
 
-A GitHub repo of Javascript Lessons displaying the simple ( and, sometimes weird ) parts of Javascript through the Open Source Brackets IDE
+A GitHub repo of Javascript Lessons displaying the simple and sometimes weird parts of ES6 through the Open Source Brackets IDE.
 
 ## Table O Contents
+
+![MMI™ Flammarion Logo Badge](assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg){:width="120px"}
 
 - TOC
 {:toc}
 
-## Solution
+**Note**. The above **Live** rendition of the **MMI™ Flammarion Logo Badge** ( if visible ) is an `( .svg )` image file set to the dimensions of 120.00 px X 120.00 px.
 
-Expound the solution ...
+## Issue Dtd 12-31-17
 
-## The Code
+The **Issue** of a successful legal argument is prefaced by a concise, to the point coin flip.
 
-Highlight the code ...
+Should it be, or should it not be?
 
-## Summation
+### The Socratic Method
+
+State the issue of the problem in the form of a question ie.) How do you code this stuff?
+
+## Rule
+
+The rule may be split into two components ...
+
+### Current Majority View
+
+What is the current view as expressed by the majority of federal districts and state courts based on the common law with reference to the UCC, 2nd Restatements, etc. et al?
+
+### The Minority View
+
+What is the minority view as expressed by the dissent?
+
+{% include analysis-code-live.md %}
+
+## Conclusion
+
+A concise conclusion wraps the argument ...
+
+### Summation
 
 Delineate the steps ...
 
-## Live
+### Solution
 
-Render the code live
+Expound the solution ...
 
-***
+### Description
 
-**Source**: [Narrative Economics by Robert Shiller, Jan #2017](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:target="_blank"}
+{{ site.description }}
+
+{% include raw-code-anchors.md %}
+
+{% include sources-and-uses.md %}
+
+### External Sources
+
+- The [Project Source Links](https://mminail.github.io/Javascript/Source-Javascript-Links.htm){:title="Click to Visit the Source Links page of the Javascript Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascript Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.

@@ -1,6 +1,7 @@
 ---
 
 ---
+/* Style template scss Dtd 12-31-17 */
 /* @import 'jekyll-theme-cayman'; */
 @import "{{ site.theme }}";
 
@@ -25,6 +26,11 @@
 }
 /* End Page Header From theme */
 
+/* Set the Rule for a Custom hard return tag */
+.green-groove {
+    border: 3px groove green;
+}
+
 /* Set the color of the anchor links */
 a {
     text-decoration: none;
@@ -46,16 +52,15 @@ li.active a {
     
 }
 
+.red {
+    color: #DC143C; /* Crimson Red */
+}
+
 .btn {
     /* color: #004B23; Forest Green */
     color: dodgerblue;
 }
 /* End Setting the color of the anchor links */
-
-/* Set the Rule for a Custom hard return tag */
-.green-groove {
-    border: 3px groove green;
-}
 
 /* Imgage Zoom-out From thumb */
 .icon-thumb {
@@ -107,12 +112,21 @@ nav.nav-primary a {
 }
 
 nav.nav-primary li a {
+    text-align: center;
     background-color:rgba(255, 255, 255, 0.7);
-	padding: 1%;
+    padding: 1%;
+    border-radius: 6px;
 }
 /* End Setting the Primary Nav*/
 
-/* Set the rule for a custom <hr /> 'hard return' tag */
-.green-groove {
-    border: 1px groove green;
+/* Set the Table Row */
+.center {
+    text-align: center;
 }
+/* End Setting the Table Row */
+
+/* Set the Table Border */
+.groove-table {
+    border: 5px groove green;
+}
+/* End Setting the Table Border */

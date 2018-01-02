@@ -1,27 +1,30 @@
 ---
-layout: default
 title: Js Hyperlinks
+layout: default
 categories: Javascript Lessons
-navigation_weight: 9
+navigation_weight: 3
 ---
-# Javascript Onclick
+# Js Hyperlinks
 
-Hyperlinks may be set with Html and alternatively with Javascript
+{{ site.tagline }}
 
-## Table O Contents
+{% include toc-flammarion.md %}
 
-- TOC
-{:toc}
+## Subtitle Begin Template Dtd 12-31-17
 
-## Javascript 
+Place the introducing line of text ie.) the 'tagline' here ...
 
-More to come ...
+```liquid
+{% raw %}
+`...`
+{% endraw %}
+```
 
-### External Links
+## Javascript Onclick
 
-More to come ...
+Hyperlinks may be set with Html and alternatively with Javascript, as follows:
 
-#### Html
+### Html
 
 ```javascript
 {% raw %}
@@ -37,7 +40,7 @@ Example ...
 {% endraw %}
 ```
 
-#### Markdown
+### Markdown
 
 In markdown, we simply set the target type ( self = internal, blank = external ) of the hyperlink with a **Liquid** statement, as follows:
 
@@ -63,14 +66,20 @@ Por Ejemplo ...
 {% endraw %}
 ```
 
-## Raw Code
+## Brackets IDE
+
+The **Brackets IDE** allows the Javascript developer to display instant changes to both your Javascript program (.js) and your View page (.html) through the Chrome browser window.
+
+**Note**. The Javascript console may also be exposed through Chrome's developer tools.
 
 ```liquid
 {% raw %}
-`...`
+Enjoy the successful output!
 {% endraw %}
 ```
 
-***
+{% include sources-and-uses.md %}
 
-**Source**: [Project Source Links](https://rwebaz.github.io/Zazzle-Hempaz-Project/pages/Source-Links.html){:target="_self"). Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:target="_blank"}
+### External Sources
+
+- The [Project Source Links](https://mminail.github.io/Javascript/Source-Javascript-Links.htm){:title="Click to Visit the Source Links page of the Javascript Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascript Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.

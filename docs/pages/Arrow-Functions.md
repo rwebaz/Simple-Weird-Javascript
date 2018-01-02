@@ -1,16 +1,13 @@
 ---
 title: Arrow Functions
 layout: default
-navigation_weight: 9
+navigation_weight: 2
 ---
 # Arrow Functions
 
-Place the introducing line of text ie.) the 'tagline' here ...
+{{ site.tagline }}
 
-## Table O Contents
-
-- TOC
-{:toc}
+{% include toc-flammarion.md %}
 
 ## Let Functions Become Arrows
 
@@ -85,16 +82,10 @@ And, then *press the Enter key* ...
 
 The `result` of the function will then appear in the `console`.
 
-## Raw Code
+## Final Subtitle
 
-More to come ...
+{% include sources-and-uses.md %}
 
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
+### External Sources
 
-***
-
-**Source**: [Project Source Links](https://rwebaz.github.io/Zazzle-Hempaz-Project/pages/Source-Links.html){:target="_self"). Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:target="_blank"}.
+- The [Project Source Links](https://mminail.github.io/Javascrpt/Source-Javascrpt-Links.htm){:title="Click to Visit the Source Links page of the Javascrpt Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascrpt Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
