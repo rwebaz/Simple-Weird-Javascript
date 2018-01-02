@@ -1,13 +1,21 @@
 # Site settings
 #
-# Date of this Update to Config-template file ver 12-18-2017
+# Date of this Update to Config-template file ver 12-31-2017
 #
 # github: [metadata]
+#
+# Uncomment theme for docs folder
 theme: "jekyll-theme-cayman"
+#
+# There is one main repository as of 12-31-17
+# repository: https://www.github.com/MMINAIL/mminail.github.io
+#
+# There are approx sixty auxillary repositories as of 12-31-17
 # repository: https://www.github.com/rwebaz/Javascript-Lessons-Project
+#
 title: "Javascript Lessons Project"
 tagline: "A GitHub repo of Javascript Lessons featuring the Open Source Brackets IDE"
-description: "A GitHub repo of Javascript Lessons displaying the simple and sometimes weird parts of Javascript through the Open Source Brackets IDE"
+description: "A GitHub repo of Javascript Lessons displaying the simple and sometimes weird parts of ES6 through the Open Source Brackets IDE."
 twitter:
     username: "mminail"
 author:
@@ -15,9 +23,9 @@ author:
     email: "mminail@icloud.com"
     github_username: "mminail"
     twitter_username: "mminail"
-# The 'baseurl' is the subpath of your designated project, e.g. /Liquid-Lessons-Project
+# The 'baseurl' is the subpath of your designated project, e.g. /Liquid-Lessons-Project or /blog or simply "/"
 baseurl: "/Javascript-Lessons-Project"
-# The 'url' is the parental web address of your designated project, e.g. /https://rwebaz.github.io
+# The 'url' is the parental web address of your designated project, e.g. /https://mminail.github.io
 url: "https://rwebaz.github.io"
 exclude: ['README.md']
 markdown: "kramdown"
