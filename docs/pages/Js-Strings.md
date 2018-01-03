@@ -13,7 +13,7 @@ Strings in Javascript can take on the methods of *Template Literals* as of **ES6
 
 The defining decorator within a *Template Literals* for all exposed variables is the dollar `$` braces `{...}` format, as follows:
 
-```liquid
+```javascript
 {% raw %}
 return (`The string variable "${x}" has a length of "${z}" characters less than or equal to "10" and greater than "0" and also produces a 6th character of "${y}".`);
 {% endraw %}
@@ -25,7 +25,7 @@ return (`The string variable "${x}" has a length of "${z}" characters less than 
 
 In the above code statement, the *return* of the *literal* allows the *method* log of the console *object* to take the *literal* as the parameter for its argument and print same to the Javascript console., as follows:
 
-```liquid
+```javascript
 {% raw %}
 console.log(actor.decipherCharName());
 {% endraw %}
@@ -35,7 +35,7 @@ console.log(actor.decipherCharName());
 
 Class functions are declared AFTER the `constructor` method and before the closing curly brace `}` of the Class declaration, as follows:
 
-```liquid
+```javascript
 {% raw %}
 // Declare the function name and input variable, if any
 	funFact() {
@@ -52,7 +52,7 @@ Class functions are declared AFTER the `constructor` method and before the closi
 
 The `constructor` method sets the value properties of the declared Class right after the Class declaration statement, but before the functions of the Class are declared, as follows:
 
-```liquid
+```javascript
 {% raw %}
 constructor(firstName, lastName, starMovie, year, charName) {
 		// Declare the value properties of the Actor class
@@ -70,7 +70,7 @@ constructor(firstName, lastName, starMovie, year, charName) {
 
 Before we can declare the functions of the Class and execute the default `constructor` method, we must first declare the Class, as follows;
 
-```liquid
+```javascript
 {% raw %}
 // Declare the Actor class
 class Actor {
@@ -85,24 +85,26 @@ class Actor {
 
 The `strict` mode parameter is placed at the top of the page behind the first line title comment, as follows:
 
-```liquid
+```javascript
 {% raw %}
 // String Stuff
 "use strict";
 {% endraw %}
 ```
 
-## Decipher Function
+## Class Functions
 
-Javascript classes can take any number of complex functions to expose, after the `constructor` method is executed.
+You may also *call* functions specific to your Class that you have built when declaring the Class.
 
-For example, *Switch case* statements may be used inside a Javascript class function, as follows:
+Javascript classes can house any number of complex functions that stand ready to expose values and methods, once the `constructor` method has bee executed.
 
-```liquid
+For example, *Switch case* statements may be used inside a Class function, as follows:
+
+```javascript
 {% raw %}
 // Declare the function name and input variable, if any
 	decipherCharName() {
-		// Declare and initialize the target name
+		// Declare and initialize the target character name
 		var x = this.charName;
 		// Declare and initialize the target character
 		var y = x.charAt(6);
@@ -114,7 +116,7 @@ For example, *Switch case* statements may be used inside a Javascript class func
 			// First conditional
 			case (z <= 60 && z > 50):
 				// Print to Javascript console
-				return console.log(`The string variable "${x}" has a length of "${z}" characters less than or equal to "10" and greater than "0" and also produces a 6th character of "${y}".`);
+				return console.log(`The string variable "${x}" has a length of "${z}" characters less than or equal to "60" and greater than "50" and also produces a 6th character of "${y}".`);
 			break;
 		
 			// Second conditional
@@ -144,7 +146,7 @@ For example, *Switch case* statements may be used inside a Javascript class func
 
 After your program is complete, you may `instantiate` an instance of the now declared Class, as follows:
 
-```liquid
+```javascript
 {% raw %}
 // Instantiate an actor from the class Actor
 var actor = new Actor("Clint", "Eastwood", "Unforgiven", 2005, "Will Muny");
@@ -153,9 +155,9 @@ var actor = new Actor("Clint", "Eastwood", "Unforgiven", 2005, "Will Muny");
 
 ## Calling Methods
 
-You may also `call` any of the functions declared *inside* the program from the *outside* Javascript console, as follows:
+You may also `call` any of the functions declared *inside* the Class from the *outside* Javascript console, as follows:
 
-```liquid
+```javascript
 {% raw %}
 console.log(actor.funFact());
 {% endraw %}
@@ -163,7 +165,7 @@ console.log(actor.funFact());
 
 Or,
 
-```liquid
+```javascript
 {% raw %}
 console.log(actor.decipherCharName());
 {% endraw %}
@@ -173,7 +175,7 @@ console.log(actor.decipherCharName());
 
 Putting it all together, the following **Finished Program** block of code may be copied and pasted directly into your Chrome Javascript console prompt `>`.
 
-```liquid
+```javascript
 {% raw %}
 // String Stuff
 "use strict";
@@ -239,7 +241,9 @@ class Actor {
 
 **Note**. Once you have copied and pasted the above code into your Javascript console, you may then separately `call` the program through either of the two Call statements representing either of the two declared functions after instantiating an instance of the declared Class.
 
-```liquid
+## Class Instantiation II
+
+```javascript
 {% raw %}
 // Instantiate an actor from the class Actor
 var actor = new Actor("Clint", "Eastwood", "Unforgiven", 2005, "Will Muny");
@@ -252,7 +256,7 @@ Simply copy and paste the above *instantiation* statement directly into your Chr
 
 AFTER you have instantiated an instance of the declared Class, you may now separately `call` the program through either of the two Call statements representing either of the two declared functions, as follows:
 
-```liquid
+```javascript
 {% raw %}
 // Call statement one
 console.log(actor.funFact());
@@ -261,7 +265,7 @@ console.log(actor.funFact());
 
 Or,
 
-```liquid
+```javascript
 {% raw %}
 // Call statement two
 console.log(actor.decipherCharName());
@@ -276,7 +280,7 @@ The **Brackets IDE** allows the Javascript developer to display instant changes 
 
 **Note**. The Javascript console may also be exposed through Chrome's developer tools.
 
-```liquid
+```javascript
 {% raw %}
 Enjoy the successful output!
 {% endraw %}
@@ -286,6 +290,6 @@ Enjoy the successful output!
 
 ### External Sources
 
-- [What You Need To Know About Javascript](https://medmj.us/KnowJavaScript){:title="Click to download 'What You Need To Know About Javascript' by Gabriel Cánepa"}{:target="_blank"} by Gabriel Cánepa. Published by © 2017 [Packtpub.com](https://www.packtpub.com){:title="Click to Visit the Home Page of Packt Pub dot com"}{:target="_blank"}.
+- [What You Need To Know About Javascript](https://medmj.us/KnowJavaScript){:title="Click to download 'What You Need To Know About Javascript' by Gabriel Cánepa"}{:target="_blank"} by Gabriel Cánepa. Published by © 2016 [Packtpub.com](https://www.packtpub.com){:title="Click to Visit the Home Page of Packt Pub dot com"}{:target="_blank"}.
 
 - The [Project Source Links](https://mminail.github.io/Javascript/Source-Javascript-Links.htm){:title="Click to Visit the Source Links page of the Javascript Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascript Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
