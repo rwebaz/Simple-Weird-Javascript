@@ -1,7 +1,7 @@
 ---
 title: Strict Javascript
 layout: default
-navigation_weight: 9
+navigation_weight: 8
 ---
 # Strict Javascript
 

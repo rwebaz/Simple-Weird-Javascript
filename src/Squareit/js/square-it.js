@@ -1,5 +1,11 @@
-//Square It Program
+// Squareit
+/// @title Square It = Squareit
+// - A simple program written in Javascript that ...
+// Copyright (c) 2000 - 2018 Robert Weber FBO Javascript Lessons Project
+// C=> https://rwebaz.github.io/Javascript-Lessons-Project/pages/Square-It.html
+
 "use strict";
+// JsHint: As of ES7 the Global use of the strict string pragma is recommended
 
 //Declare and assign the arrow function to accept one argument
 let SQ = (nbr) => {

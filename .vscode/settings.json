@@ -1,6 +1,16 @@
+// This is the Begin brace for the Workspace Settings
 {
   "cSpell.words": [
+    "alterconstant",
     "programatically",
+    "resumebuilder",
+    "simplefunc",
+    "strictobjects",
     "uncomment"
-  ]
+  ],
+
+  "jshint.options": {
+    "esversion" : 6
+  }
 }
+// This is the end brace for the Workspace Settings
