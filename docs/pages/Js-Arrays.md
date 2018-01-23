@@ -9,7 +9,7 @@ navigation_weight: 3
 
 {% include toc-flammarion.md %}
 
-## Subtitle Begin Template Dtd 12-31-17
+## Push Pop Join
 
 An array in Javascript can be a simple, straight collection of like *type* values.
 
