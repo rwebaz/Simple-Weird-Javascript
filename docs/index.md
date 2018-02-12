@@ -1,22 +1,20 @@
 ---
 title: Home Page
 layout: default
+excerpt: Javascript Lessons that display the simple and sometimes weird parts of ES5, ES6, ES7 and beyond ...
+version: Index Template md Dtd 02-10-18
 navigation_weight: 1
+categories: template
 ---
+{% comment %}{% raw %}{% include page-banner-blank.md %}{% endraw %}{% endcomment %}
+
 # Javascript Lessons Project Home Page
 
-A GitHub repo of Javascript Lessons displaying the simple and sometimes weird parts of ES6 through the Open Source Brackets IDE.
+{{ page.excerpt }}
 
-## Table O Contents
+{% include toc.md %}
 
-![MMI™ Flammarion Logo Badge](assets/img/svg/MMI-Medmj-Org-Got-Tree-Flammarion-Person-Through-Celestial-Sphere-circle-543-x-543.svg){:width="120px"}
-
-- TOC
-{:toc}
-
-**Note**. The above **Live** rendition of the **MMI™ Flammarion Logo Badge** ( if visible ) is an `( .svg )` image file set to the dimensions of 120.00 px X 120.00 px.
-
-## Issue Dtd 12-31-17
+## Issue
 
 The **Issue** of a successful legal argument is prefaced by a concise, to the point coin flip.
 
@@ -62,4 +60,6 @@ Expound the solution ...
 
 ### External Sources
 
-- The [Project Source Links](https://mminail.github.io/Javascript/Source-Javascript-Links.htm){:title="Click to Visit the Source Links page of the Javascript Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascript Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+- The [Project Source Links](https://mminail.github.io/Javascript/Source-Javascript-Links.htm){:title="Click to Visit the Source Links page of the Javascript Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascript Lessons Project. Published by © 2017 -2018 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+
+**Note**. This page crafted with {{ page.version }}.
