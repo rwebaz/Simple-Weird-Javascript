@@ -4,7 +4,7 @@
   
 <head>
   <!-- Declare the title of the page -->
-  <title>Index Page</title>
+  <title>Window Page</title>
   
   <!-- Set the character set for the page -->
   <meta charset="utf-8">
@@ -33,7 +33,7 @@
 </head>
 
 <body role="document">
-  <div id="page-index" role="main" data-role="page">
+  <div id="page-window" role="main" data-role="page">
 
     <hgroup id="header" role="heading" data-role="header" data-position="fixed" class="text-left">
       <h4 id="title">${this.title}</h4>
@@ -52,34 +52,34 @@
       </p>
         <hr class="green-groove" />
       
-      <p id="month">
-        <button id="button_one" role="button" data-role="button" rel="help" data-rel="dialog" data-inline="true" title="Click To Fire the function that updates the month">January</button>
+      <p id="year">
+        <button id="button_one" role="button" data-role="button" rel="help" data-rel="dialog" data-inline="true" title="Click To Fire the function that updates the year">1999</button>
       </p>
         <hr class="green-groove" />
       
       <p id="clickr_one">
         
-        <a id="button_one" role="button" data-role="button" rel="help" data-rel="dialog" href="../js/mobile-init.js" 
-        title="Click To Review the corresponding local Javascript file mobile-init" 
-        target="_blank">Mobile-init js: Click to View the Mobile-init js file</a>
+        <a id="button_one" role="button" data-role="button" rel="help" data-rel="dialog" href="../js/document-ready.js" 
+        title="Click To Review the corresponding local Javascript file document-ready" 
+        target="_blank">Document-ready js: Click to View the Document-ready js file</a>
         
       </p>
         <hr class="green-groove" />
   
       <p id="clickr-two">
         
-        <a id="button_two" role="button" data-role="button" rel="help" data-rel="dialog" href="../js/document-ready.js" 
-        title="Click To Review the corresponding local Javascript file document-ready"
-        target="_blank">Document-ready js: Click to View the Document-ready js file</a>
+        <a id="button_two" role="button" data-role="button" rel="help" data-rel="dialog" href="../js/window-onload.js" 
+        title="Click To Review the corresponding local Javascript file window-onload"
+        target="_blank">Window-onload js: Click to View the Window-onload js file</a>
         
       </p>
         <hr class="green-groove" />
-   
-      <!-- <p id="clickr_three">
+      
+      <!-- <p id="clickr-three">
         
-        <a id="button_three" role="button" data-role="button" rel="next" data-rel="dialog" href="../pages/window.html" 
-        title="Click To Visit the Two page" 
-        target="_self">Page Window: Click to Jump To Page Two</a>
+        <a id="button-three" role="button" data-role="button" rel="prev" data-rel="back" href="../index.html" 
+        title="Click To Visit the Index Page" 
+        target="_self">Page Index: Click to Return to the Home Page</a> 
         
       </p>
         <hr class="green-groove" /> -->
@@ -104,20 +104,20 @@
   <!-- Comment Out: Sizzle Library Local Script ver 2.3.3 Full -->
   <script src="../js/sizzle-2.3.3.js"></script>
 
-  <!-- Comment Out: Mobile Init js -->
-  <script src="../js/mobile-init.js"></script> 
+  <!-- Comment Out: Mobile Init js 
+  <script src="../js/mobile-init.js"></script> -->
   
-  <!-- Comment Out: Job One js -->
-  <script src="../js/job-one.js"></script> 
+  <!-- Comment Out: Job Two js -->
+  <script src="../js/job-two.js"></script> 
   
-  <!-- Comment Out: Document Ready Month js -->
-  <script src="../js/document-ready-month.js"></script>
+  <!-- Comment Out: Document Ready Year js -->
+  <script src="../js/document-ready-year.js"></script>
   
-  <!-- Comment Out: Window Onload js -->
+  <!-- Comment Out: Window Onload Green js -->
   <script src="../js/window-onload-green.js"></script>
   
   <!-- Comment Out: Jquery Mobile Library Local Script ver 1.4.5 Full -->
   <script src="../js/jquery.mobile-1.4.5.js"></script> 
-            
+               
 </body>
 </html>
