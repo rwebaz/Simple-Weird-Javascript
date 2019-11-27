@@ -1,15 +1,18 @@
 ---
 title: Arrow Functions
 layout: default
-navigation_weight: 2
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: The fat arrow => became the new symbol of Javascript Functions with the release of ES6.
+repo: Javascript-Lessons-Project
+ver_date: 11-26-19
+navigation_weight: 8
+categories: page
 ---
-# Arrow Functions
-
-The fat arrow `=>` became the new symbol of **Javascript Functions** with the release of **ES6**.
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Function Statements
+
+> **Hint**. {{ page.hint }}
 
 A standard function with a name in Javascript looks like this ...
 
@@ -129,18 +132,16 @@ The `result` of the function will then appear in the `console`.
 
 An anonymous function that calls itself *internally* from outside its braces `{...}`, but also from within its self-contained enclosing set of parenthesis `(...)` is called an ..., or **IFEE**.
 
-## Final Subtitle
+## Last Subtitle
 
 More to come ...
 
-```Javascript
-Enjoy the view!
-```
+***
 
-{% include brackets-ide.md %}
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-{% include sources-and-uses.md %}
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
-### External Sources
+***
 
-- The [Project Source Links](https://mminail.github.io/Javascrpt/Source-Javascrpt-Links.htm){:title="Click to Visit the Source Links page of the Javascript Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascript Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+{% include patreon-link.md %}

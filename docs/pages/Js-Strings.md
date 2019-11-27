@@ -1,17 +1,18 @@
 ---
 title: Js Strings
 layout: default
-navigation_weight: 3
+excerpt: Strings in Javascript can take on the methods of Template Literals as of ES6 2015 ...
+hint: The defining decorator within a Template Literal for all exposed variables is the dollar $-braces format.
+repo: Javascript-Lessons-Project
+ver_date: 11-26-19
+navigation_weight: 8
+categories: page
 ---
-# Js Strings
-
-Strings in Javascript can take on the methods of *Template Literals* as of **ES6** 2015.
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Dollar Braces
 
-The defining decorator within a *Template Literals* for all exposed variables is the dollar `$` braces `{...}` format, as follows:
+> **Hint**. {{ page.hint }}
 
 ```javascript
 {% raw %}
@@ -272,24 +273,16 @@ console.log(actor.decipherCharName());
 
 Simply copy and paste either or both of the above *call statement* directly into your Chrome Javascript console prompt `>`.
 
-## Brackets IDE
+## Last Subtitle
 
-The **Brackets IDE** allows the Javascript developer to display instant changes to both your Javascript program (.js) and your View page (.html) through the Chrome browser window.
+More to come ...
 
-**Note**. The Javascript console may also be exposed through Chrome's developer tools.
+***
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-{% include sources-and-uses.md %}
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
-### External Sources
+***
 
-- [Eloquent Javascript](https://www.syncfusion.com/resources/techportal/details/ebooks/eloquent-javascript){:title='Click to Visit the Landing page for Eloquent Javascript by Marijn Haverbeke at Synch Fusion dot com'}{:target='_blank'}. Published by © 2012 [Syncfusion.com](https://www.syncfusion.com/){:title='Click to Visit the Home page of Synch Fusion dot com'}{:target='_blank'}.
-
-- [What You Need To Know About Javascript](https://medmj.us/KnowJavaScript){:title="Click to download 'What You Need To Know About Javascript' by Gabriel Cánepa"}{:target="_blank"} by Gabriel Cánepa. Published by © 2016 [PACKTpub.com](https://www.packtpub.com){:title="Click to Visit the Home Page of Packt Publishers dot com"}{:target="_blank"}.
-
-- The [Project Source Links](https://mminail.github.io/Javascript/Source-Javascript-Links.htm){:title="Click to Visit the Source Links page of the Javascript Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascript Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+{% include patreon-link.md %}

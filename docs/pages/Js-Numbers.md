@@ -1,15 +1,18 @@
 ---
 title: Js Numbers
 layout: default
-navigation_weight: 3
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Javascript provides a primitive constructor for the Number object that makes a variable var immutable with respect to type.
+repo: Javascript-Lessons-Project
+ver_date: 11-26-19
+navigation_weight: 8
+categories: page
 ---
-# Js Numbers
-
-Javascript provides a primitive constructor for the *Number* object that makes a variable `var` immutable with respect to *type*.
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Number()
+
+> **Hint**. {{ page.hint }}
 
 Forcing or *casting* a variable's *type* in Javascript may be performed with the *primitive constructor* for the *Number* object `Number()`.
 
@@ -45,20 +48,14 @@ So, an odd case of explicitly changing an immutably declared variable `var` as t
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+***
 
-{% include brackets-ide.md %}
+**Note**. The above synopsis was derived from an article written by Marijn Haverbeke [[1](#MARIJNHAVERBEKE){:.red}].
 
-{% include sources-and-uses.md %}
+1. {:#MARIJNHAVERBEKE}[Eloquent Javascript](https://www.syncfusion.com/resources/techportal/details/ebooks/eloquent-javascript){:title='Click to Visit the Landing page for Eloquent Javascript by Marijn Haverbeke at Synch Fusion dot com'}{:target='_blank'}. Published by © 2012 [Syncfusion.com](https://www.syncfusion.com/){:title='Click to Visit the Home page of Synch Fusion dot com'}{:target='_blank'}.
 
-### External Sources
+***
 
-- [Eloquent Javascript](https://www.syncfusion.com/resources/techportal/details/ebooks/eloquent-javascript){:title='Click to Visit the Landing page for Eloquent Javascript by Marijn Haverbeke at Synch Fusion dot com'}{:target='_blank'}. Published by © 2012 [Syncfusion.com](https://www.syncfusion.com/){:title='Click to Visit the Home page of Synch Fusion dot com'}{:target='_blank'}.
-
-- The [Project Source Links](https://mminail.github.io/Javascript/Source-Javascript-Links.htm){:title="Click to Visit the Source Links page of the Javascript Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascript Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+{% include patreon-link.md %}

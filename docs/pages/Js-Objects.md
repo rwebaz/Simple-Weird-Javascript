@@ -1,17 +1,20 @@
 ---
 title: Js Objects
 layout: default
-navigation_weight: 3
+excerpt: In an Object variable, the developer may mix value types ...
+hint: An Object variable can be instantiated with a set of curly braces enclosing a set of key-value pairs.
+repo: Javascript-Lessons-Project
+ver_date: 11-26-19
+navigation_weight: 8
+categories: page
 ---
-# Js Objects
-
-{{ site.tagline }}
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Object Variables
 
-An *Object* variable can be instantiated with a set of curly braces `{...}` enclosing a set of *key-value* pairs.
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 ```liquid
 {% raw %}
@@ -19,7 +22,7 @@ var universa = {state: 'Florida', name: 'Florida Southern', enrollment: '10,000'
 {% endraw %}
 ```
 
-**Note**. In an *Object* variable, the developer may mix value *types*.
+### Mixing Value types
 
 For, example ...
 
@@ -74,20 +77,14 @@ run: function() {console.log('go fast!')}};
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+***
 
-{% include brackets-ide.md %}
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-{% include sources-and-uses.md %}
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
-### External Sources
+***
 
-- [What You Need To Know About Javascript](https://medmj.us/KnowJavaScript){:title="Click to download 'What You Need To Know About Javascript' by Gabriel Cánepa"}{:target="_blank"} by Gabriel Cánepa. Published by © 2016 [Packtpub.com](https://www.packtpub.com){:title="Click to Visit the Home Page of Packt Pub dot com"}{:target="_blank"}.
-
-- The [Project Source Links](https://mminail.github.io/Javascript/Source-Javascript-Links.htm){:title="Click to Visit the Source Links page of the Javascript Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascript Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+{% include patreon-link.md %}
