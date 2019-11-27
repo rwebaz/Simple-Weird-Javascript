@@ -1,27 +1,31 @@
 ---
 title: Construct Function
 layout: default
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: Place the intro paragraph ie.) the 'hypothesis' here ...
+repo: Javascript-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
+categories: page
 ---
-# Construct Function
-
-{{ site.tagline }}
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## First Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+> **Hint**. {{ page.hint }}
+
+More to come ...
 
 ## Import Code
 
+```html
 <h4>Mongo Command - Function Template</h4>
 <p>
-	<span>Intro to the MongoDB 'template()' function ...</span>
+<span>Intro to the MongoDB 'template()' function ...</span>
 </p>
 
 <p>
-	<span>Intro to the MongoDB 'Template' command</span>
+<span>Intro to the MongoDB 'Template' command</span>
 </p>
 <!--
 <pre>
@@ -37,8 +41,8 @@ db.help();
 -->
 <h5>For Example ( <span lang="es" title="For Example">Por Ejemplo</span> ) ...</h5>
 <p>
-	<span>(MS) will provide specific 'help', too ...</span>
-	<span>Whenever a collection is specified within the 'help' function.</span>
+<span>(MS) will provide specific 'help', too ...</span>
+<span>Whenever a collection is specified within the 'help' function.</span>
 </p>
 <!--
 <pre>
@@ -52,21 +56,18 @@ db.frame.help();
 </code>
 </pre>
 -->
+```
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+***
 
-{% include brackets-ide.md %}
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-{% include sources-and-uses.md %}
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
-### External Sources
+***
 
-- The [Project Source Links](https://mminail.github.io/Javascript/Source-Javascript-Links.htm){:title="Click to Visit the Source Links page of the Javascript Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascript Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+{% include patreon-link.md %}

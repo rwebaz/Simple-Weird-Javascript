@@ -1,19 +1,26 @@
 ---
 title: Set Source
 layout: default
+excerpt: Place the introducing line of text ie.) the 'tagline' here ...
+hint: The src folder of your Javascript project holds the many and various Javascript programs your team may develop.
+repo: Javascript-Lessons-Project
+ver_date: 11-26-19
 navigation_weight: 8
+categories: page
 ---
-# Set Source
-
-How to Set the Source `src` folder of your Javascript project.
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Folder Src
 
-The `src` folder of your Javascript project holds the many and various Javascript programs your team may develop.
+> **Hint**. {{ page.hint }}
 
-### File Name
+More to come ...
+
+### How to Set the Source src folder
+
+More to come ...
+
+#### File Name
 
 The **File Name** of each program should reflect the underlying Javascript code (.js) file.
 
@@ -100,18 +107,14 @@ This way, you are assured of manipulating the *DOM Tree* from its *first finaliz
 
 ## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-```liquid
-{% raw %}
-Enjoy the successful output!
-{% endraw %}
-```
+***
 
-{% include brackets-ide.md %}
+**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
 
-{% include sources-and-uses.md %}
+1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
 
-### External Sources
+***
 
-- The [Project Source Links](https://mminail.github.io/Javascript/Source-Javascript-Links.htm){:title="Click to Visit the Source Links page of the Javascript Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascript Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+{% include patreon-link.md %}

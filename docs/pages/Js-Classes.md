@@ -1,15 +1,18 @@
 ---
 layout: default
 title: Js Classes
-navigation_weight: 3
+excerpt: Classes are the backbone of any Object Oriented programming language ...
+hint: Before we can declare the functions of a Class and execute the default constructor method, we must first declare the Class.
+repo: Javascript-Lessons-Project
+ver_date: 11-26-19
+navigation_weight: 8
+categories: page
 ---
-# Js Classes
-
-Classes are the backbone of any *Object Oriented* programming language.
-
-{% include toc-flammarion.md %}
+{% include toc.md %}
 
 ## Implementation
+
+> **Hint**. {{ page.hint }}
 
 Is Javascript an *Object Oriented* programming language?
 
@@ -27,7 +30,7 @@ Each step can be submitted to the Javascript console prompt `>` incrementally, a
 
 ### Class Declaration
 
-Before we can declare the functions of a Class and execute the default `constructor` method, we must first declare the Class, as follows;
+More to come ...
 
 ```javascript
 {% raw %}
@@ -166,22 +169,16 @@ As Javascript is a *case-sensitive* computer language, and as of **ES6** also an
 
 Naming the new instance of the Class `Actor` with the lower case name of `actor` is a legal move in the world of Javascript.
 
-## Final Subtitle
+## Last Subtitle
 
-Place the introducing line of text ie.) the 'tagline' here ...
+More to come ...
 
-```liquid
-{% raw %}
-`...`
-{% endraw %}
-```
+***
 
-{% include brackets-ide.md %}
+**Note**. The above synopsis was derived from an article written by Gabriel Cánepa [[1](#GABRIELCANEPA){:.red}].
 
-{% include sources-and-uses.md %}
+1. {:#GABRIELCANEPA}[What You Need To Know About Javascript](https://www.packtpub.com){:title="Click to download 'What You Need To Know About Javascript' by Gabriel Cánepa"}{:target="_blank"} by Gabriel Cánepa. Published by © 2016 [Packtpub.com](https://www.packtpub.com){:title="Click to Visit the Home Page of Packt Pub dot com"}{:target="_blank"}.
 
-### External Sources
+***
 
-- [What You Need To Know About Javascript](https://medmj.us/KnowJavaScript){:title="Click to download 'What You Need To Know About Javascript' by Gabriel Cánepa"}{:target="_blank"} by Gabriel Cánepa. Published by © 2016 [Packtpub.com](https://www.packtpub.com){:title="Click to Visit the Home Page of Packt Pub dot com"}{:target="_blank"}.
-
-- The [Project Source Links](https://mminail.github.io/Javascrpt/Source-Javascrpt-Links.htm){:title="Click to Visit the Source Links page of the Javascrpt Lessons Project at GitHub pages"}{:target="_blank"} page of the Javascrpt Lessons Project. Published by © 2017 [Mminail.github.io](https://mminail.github.io/){:title="Click to Visit the Concept Library of the Medical Marijuana Initiative of North America - International Limited, an Arizona Benefit Corporation"}{:target="_blank"}.
+{% include patreon-link.md %}
