@@ -1,8 +1,8 @@
 ---
-title: Js Ternary Operator Formula
+title: Ternary Operator
 layout: default
-excerpt: Store in a constant variable ...
-hint: The Formula ...
+excerpt: The Ternary or conditional operator is the only JavaScript operator that takes three operands ...
+hint: Store in a constant variable ...
 repo: Javascript-Lessons-Project
 ver_date: 4-17-21
 navigation_weight: 8
@@ -28,7 +28,7 @@ const cartItemCount = isAuthenticatedUser ? 1 : 0;
 // If so by placing a Boolean function upon the element  ...
 // Returns `true`
 // Statement resolves to `1`
-// Then, 
+// Or, 
 // After initially placing a Boolean function upon the element ...
 // Returns `false`
 // Statement resolves to `0`
@@ -41,9 +41,17 @@ More to come ...
 
 ***
 
-**Note**. The above synopsis was derived from an article written by Matt Barger [[1](#MATTBARGER){:.red}].
+**Note**.
+
+The above synopsis was derived from an video lecture written, produced and performed by ...
+
+`Matt Barger`: [[1](#MATTBARGER){:.red}].
+
+For additional reference on the topic of `Ternary Operators` see the `Mozilla Developer Network`: [[2](#MDN){:.red}]
 
 1. {:#MATTBARGER}[Javascript: The Complete Developer, 2020](https://www.scrimba.com){:title="Click to Review Javascript: The Complete Developer, 2020 by Matt Barger"}{:target="_blank"}
+
+2. {:#MDN}[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator){:title="Click to Review the Ternary Operators section of the Mozilla Developer Network"}{:target="_blank"}
 
 ***
 

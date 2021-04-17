@@ -130,7 +130,7 @@ The `result` of the function will then appear in the `console`.
 
 ## IFEE Functions
 
-An anonymous function that calls itself *internally* from outside its braces `{...}`, but also from within its self-contained enclosing set of parenthesis `(...)` is called an ..., or **IFEE**.
+An anonymous function that calls itself *internally* from outside its braces `{...}`, but also from within its self-contained enclosing set of parenthesis `(...)` is called an ..., or `IFEE`.
 
 ## Last Subtitle
 
