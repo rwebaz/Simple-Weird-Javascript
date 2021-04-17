@@ -217,7 +217,7 @@ gem 'activesupport', '6.0.3.1'
 gem 'github-pages-health-check', '1.17.0'
 #
 # gem 'github-pages', '214'
-gem 'github-pages', '213'
+gem 'github-pages', '214'
 # 
 # Note. The `github-markdown` dependency is no longer
 # designated at the online GitHub Pages dependency chart
@@ -272,7 +272,7 @@ gem 'jemoji', '0.12.0'
 gem 'kramdown-parser-gfm', '1.1.0'
 #
 # gem "kramdown", ">= 2.3.1"
-gem 'kramdown', '2.3.0'
+gem 'kramdown', '2.3.1'
 #
 gem 'liquid', '4.0.3'
 #
