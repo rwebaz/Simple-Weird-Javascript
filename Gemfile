@@ -1,11 +1,13 @@
 # 
-# Gemfile ver 122120 Satellite Repo
+# Gemfile ver 041721 Satellite Repo
 # 
 # frozen_string_literal: true
 #
 source "https://rubygems.org"
 #
-ruby "2.7.2"
+# ruby "2.7.1"
+# ruby "2.7.2"
+ruby "3.0.1"
 #
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 #
@@ -206,14 +208,19 @@ gem 'jekyll-docs', '3.9.0'
 #
 # Note. To upgrade all, run `bundle update` from the command line.
 #
+# github-pages, 200 requires rubyzip
+gem 'rubyzip', '2.0.0'
+#
 # github-pages, 175 requires activesupport, 429
 gem 'activesupport', '6.0.3.1'
 #
-gem 'github-pages-health-check', '1.16.1'
+gem 'github-pages-health-check', '1.17.0'
 #
-gem 'github-pages', '209'
-#
-# Note. The ''github-markdown' dependency is no longer designated at the online GitHub Pages dependency chart
+# gem 'github-pages', '214'
+gem 'github-pages', '213'
+# 
+# Note. The `github-markdown` dependency is no longer
+# designated at the online GitHub Pages dependency chart
 # C=> https://pages.github.com/versions/
 # gem 'github-markdown'
 #
@@ -245,11 +252,11 @@ gem 'jekyll-redirect-from', '0.16.0'
 #
 gem 'jekyll-relative-links', '0.6.1'
 #
-gem 'jekyll-remote-theme', '0.4.2'
+gem 'jekyll-remote-theme', '0.4.3'
 #
 gem 'jekyll-sass-converter', '1.5.2'
 #
-gem 'jekyll-seo-tag', '2.6.1'
+gem 'jekyll-seo-tag', '2.7.1'
 #
 gem 'jekyll-sitemap', '1.4.0'
 #
@@ -264,15 +271,16 @@ gem 'jemoji', '0.12.0'
 #
 gem 'kramdown-parser-gfm', '1.1.0'
 #
+# gem "kramdown", ">= 2.3.1"
 gem 'kramdown', '2.3.0'
 #
 gem 'liquid', '4.0.3'
 #
 gem 'minima', '2.5.1'
 #
-gem 'nokogiri', '1.10.10'
+gem 'nokogiri', '1.11.2'
 #
-gem 'rouge', '3.23.0'
+gem 'rouge', '3.26.0'
 #
 gem 'safe_yaml', '1.0.5'
 #
@@ -280,9 +288,8 @@ gem 'sass', '3.7.4'
 #
 # The following gems are not listed at: https://pages.github.com/versions/
 #
-gem 'listen', '3.1.5'
-#
-gem 'rubyzip', '2.0.0'
+# gem 'rubyzip', '2.0.0'
+# gem 'listen', '3.1.5'
 #
 # If you have any other Jekyll plugins, put them here ...
 # group: 'jekyll_plugins' do
