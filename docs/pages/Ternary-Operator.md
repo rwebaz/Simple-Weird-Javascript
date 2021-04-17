@@ -45,11 +45,11 @@ More to come ...
 
 The above synopsis was derived from an video lecture written, produced and performed by ...
 
-`Matt Barger`: [[1](#MATTBARGER){:.red}].
+`Reed Barger`: [[1](#REEDBARGER){:.red}].
 
 For additional reference on the topic of `Ternary Operators` see the `Mozilla Developer Network`: [[2](#MDN){:.red}]
 
-1. {:#MATTBARGER}[Javascript: The Complete Developer, 2020](https://www.scrimba.com){:title="Click to Review Javascript: The Complete Developer, 2020 by Matt Barger"}{:target="_blank"}
+1. {:#REEDBARGER}[Javascript: The Complete Developer, 2020](https://www.scrimba.com){:title="Click to Review Javascript: The Complete Developer, 2020 by Reed Barger"}{:target="_blank"}
 
 2. {:#MDN}[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator){:title="Click to Review the Ternary Operators section of the Mozilla Developer Network"}{:target="_blank"}
 

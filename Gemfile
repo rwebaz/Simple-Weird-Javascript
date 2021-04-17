@@ -271,7 +271,7 @@ gem 'jemoji', '0.12.0'
 #
 gem 'kramdown-parser-gfm', '1.1.0'
 #
-# gem "kramdown", ">= 2.3.1"
+# gem "kramdown", "2.3.1"
 gem 'kramdown', '2.3.0'
 #
 gem 'liquid', '4.0.3'
