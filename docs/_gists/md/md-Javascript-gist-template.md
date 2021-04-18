@@ -4,7 +4,7 @@ layout: default
 excerpt: Place the introducing line of text ie.) the 'tagline' here ...
 hint: Place the intro paragraph ie.) the 'hypothesis' here ...
 repo: Javascript-Lessons-Project
-ver_date: 11-26-19
+ver_date: 04-17-21
 navigation_weight: 8
 categories: page
 ---

@@ -20,6 +20,21 @@ categories: page
 const cartItemCount = isAuthenticatedUser ? 1 : 0;
 ```
 
+### In Action Test
+
+```ruby
+const isAuthenticatedUser = true;
+// const isAuthenticatedUser = false;
+const cartItemCount = isAuthenticatedUser ? 1 : 0;
+console.log(cartItemCount);
+```
+
+### The Results
+
+Returns ...
+
+`1` for `true` and `0` for `false`
+
 ## Steps of the Algorithm
 
 ```ruby
@@ -37,21 +52,21 @@ const cartItemCount = isAuthenticatedUser ? 1 : 0;
 
 ## Last Subtitle
 
-More to come ... TEST
+More to come ...
 
-***
-
-**Note**.
-
-The above synopsis was derived from an video lecture written, produced and performed by ...
+**Note**. The above synopsis was derived from a video lecture written, produced and performed by ...
 
 `Reed Barger`: [[1](#REEDBARGER){:.red}].
 
 For additional reference on the topic of `Ternary Operators` see the `Mozilla Developer Network`: [[2](#MDN){:.red}]
 
-1. {:#REEDBARGER}[Javascript: The Complete Developer, 2020](https://www.scrimba.com){:title="Click to Review Javascript: The Complete Developer, 2020 by Reed Barger"}{:target="_blank"}
+For a working Internet development platform for Javascript `Ternary Operators` see `Scrimba`: [[3](#SCRIMBA){:.red}]
+
+1. {:#REEDBARGER}[Javascript: The Complete Developer, 2020](https://subscription.packtpub.com/video/web_development/9781801072847?uuid=cc36e816-6930-4834-852a-206c35a8c895){:title="Click to Review Javascript: The Complete Developer, 2020 by Reed Barger at Packt"}{:target="_blank"}
 
 2. {:#MDN}[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator){:title="Click to Review the Ternary Operators section of the Mozilla Developer Network"}{:target="_blank"}
+
+3. {:#SCRIMBA}[Scrimba Javascript Developer Platform](https://www.scrimba.com){:title="Click to Review the Javascript Developer Platform at Scrimba"}{:target="_blank"}
 
 ***
 
