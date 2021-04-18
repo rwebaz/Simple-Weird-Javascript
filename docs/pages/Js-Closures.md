@@ -1,7 +1,7 @@
 ---
 title: Closures
 layout: default
-excerpt: Closures are properties of functions that can be executed in scopes other than the scope the subject closure originated.
+excerpt: Closures are properties of functions in Javascript that can be executed in scopes other than the scope the subject closure originated.
 hint: Only functions have closures ...
 repo: Javascript-Lessons-Project
 ver_date: 04-17-21
