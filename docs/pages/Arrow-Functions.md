@@ -1,10 +1,10 @@
 ---
 title: Arrow Functions
 layout: default
-excerpt: Place the introducing line of text ie.) the 'tagline' here ...
-hint: The fat arrow => became the new symbol of Javascript Functions with the release of ES6.
+excerpt: A concise way to template functions ...
+hint: Watch the `this` keyword ...
 repo: Javascript-Lessons-Project
-ver_date: 11-26-19
+ver_date: 04-18-21
 navigation_weight: 8
 categories: page
 ---
@@ -14,24 +14,30 @@ categories: page
 
 > **Hint**. {{ page.hint }}
 
+**Note**. The fat arrow `=>` became the new symbol of Javascript functions with the release of `ES6`.
+
 A standard function with a name in Javascript looks like this ...
 
-```Javascript
-"use strict";
+```javascript
 function a(x) {
   x = "This is a standard Javascript function with a name."
-  console.log(`${x}`);
+  return x;
 }
+console.log(`${x}`);
 a();
 ```
 
-Here, the variable `a` is declared as the *name* of the function from within the **function statement**.
+Here, the `a` in the formula represents a label corresponding to the name of the function.
+
+;where the variable placeholder `x` is coerced to the type `string`.
+
+**Note**. A standard function without a name in Javascript is called an `anonymous` function.
 
 ### Function Properties
 
-The function `a` takes one argument named `x` of which the parameter type of the argument is inferred to be a `String` by nature of its subsequent initialization.
+The function `a` above takes one argument named `x` of which is inferred to be a `string`.
 
-**Note**. The variable `x` is declared from within the **function statement**, as well.
+**Note**. Declaration of the `x` variable occurs at the point of the declaration of function `a`.
 
 ### Function Methods
 
@@ -130,17 +136,98 @@ The `result` of the function will then appear in the `console`.
 
 ## IFEE Functions
 
+**Rule**. All arrow functions are anonymous functions.
+
 An anonymous function that calls itself *internally* from outside its braces `{...}`, but also from within its self-contained enclosing set of parenthesis `(...)` is called an ..., or `IFEE`.
+
+## Higher Order Functions
+
+```javascript
+// Declare an `object` named `user` ...
+// Set the value of `user` to `key - value` pairs
+const user = {
+  name: "john",
+  date_joined: 'May 12th, 2013'
+}
+
+// Task. Create a function to capitalize the first letter ...
+// Of the `attributes` of `property` name.
+
+// Set the function to a constant `capitalize`
+// The function may now be `called` w `capitalize`
+// const capitalize = function (name) {
+  // return the finished product of the function
+  // return `${name.charAt(0).toUpperCase()}${name.slice(1)}`;
+  // End of function
+// }
+```
+
+### Conversion
+
+```javascript
+// ------------------------------------------------------------------------
+// Steps required to transfer the above `main` function ...
+// From standard format to arrow format.
+// ------------------------------------------------------------------------
+
+// Remove the `function` keyword from the formula.
+// Insert the fat arrow `=>` between the declared function attribute(s), and
+// The first curly brace.
+// Note. Because there exists simply one parameter declared as an attribute ...
+// Then, the set of parenthesis surrounding the paramter `name` may also be dropped.
+// The set of curly braces enveloping the body of the function may be dropped, as well.
+// Further, because an `Arrow Function` implicitly calls a `return` statement ...
+// No explicit `return` keyword is required, either!
+const capitalize = name => 
+  // implicitly return the finished product of the function
+  `${name.charAt(0).toUpperCase()}${name.slice(1)}`;
+  // End of Arrow function
+console.log(capitalize('roberto'))
+```
+
+### Higher Order
+
+### The `
+
+```javascript
+function greetUser(name, callback) {
+  return callback(capitalize(name));
+}
+
+// Remember from above ...
+// Insert the fat arrow `=>` between the declared function attribute(s), and
+// The first curly brace.
+// const result = greetUser(user.name, (name) => {
+  // `Hi there, ${name}`;
+// });
+
+// console.log(result);
+
+// ------------------------------------------------------------------------
+// Note. All callback functions are `Higher Order` functions
+// ------------------------------------------------------------------------
+
+const result = greetUser(user.name, name => `Hi there, ${name}`);
+console.log(result)
+```
 
 ## Last Subtitle
 
 More to come ...
 
-***
+**Note**. The above synopsis was derived from a video lecture written, produced and performed by ...
 
-**Note**. The above synopsis was derived from an article written by Blank Author [[1](#BLANKAUTHOR){:.red}].
+`Reed Barger`: [[1](#REEDBARGER){:.red}].
 
-1. {:#BLANKAUTHOR}[A Narrative of Psychology by Blank Author, Jan #1999](http://cowles.yale.edu/sites/default/files/files/pub/d20/d2069.pdf){:title="Click to Review ..."}{:target="_blank"}
+For additional reference on the topic of `Ternary Operators` see the `Mozilla Developer Network`: [[2](#MDN){:.red}]
+
+For a working Internet development platform for Javascript `Closures` see `Scrimba`: [[3](#SCRIMBA){:.red}]
+
+1. {:#REEDBARGER}[Javascript: The Complete Developer, 2020](https://subscription.packtpub.com/video/web_development/9781801072847?uuid=cc36e816-6930-4834-852a-206c35a8c895){:title="Click to Review Javascript: The Complete Developer, 2020 by Reed Barger at Packt"}{:target="_blank"}
+
+2. {:#MDN}[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator){:title="Click to Review the Ternary Operators section of the Mozilla Developer Network"}{:target="_blank"}
+
+3. {:#SCRIMBA}[Scrimba Javascript Developer Platform](https://www.scrimba.com){:title="Click to Review the Javascript Developer Platform at Scrimba"}{:target="_blank"}
 
 ***
 
