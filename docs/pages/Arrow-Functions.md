@@ -149,10 +149,12 @@ const user = {
   name: "john",
   date_joined: 'May 12th, 2013'
 }
+```
 
-// Task. Create a function to capitalize the first letter ...
-// Of the `attributes` of `property` name.
+### The Algorithmic Steps B
 
+```javascript
+// Task. Create a function to capitalize the first letter of the `attributes` of `property` name.
 // Set the function to a constant `capitalize`
 // The function may now be `called` w `capitalize`
 // const capitalize = function (name) {
@@ -162,22 +164,26 @@ const user = {
 // }
 ```
 
-### Conversion
+## Conversion
+
+How to transfer the above `main` function from standard format to arrow format?
+
+### Algorithmic Steps  
 
 ```javascript
-// ------------------------------------------------------------------------
-// Steps required to transfer the above `main` function ...
-// From standard format to arrow format.
-// ------------------------------------------------------------------------
-
 // Remove the `function` keyword from the formula.
 // Insert the fat arrow `=>` between the declared function attribute(s), and
 // The first curly brace.
 // Note. Because there exists simply one parameter declared as an attribute ...
-// Then, the set of parenthesis surrounding the paramter `name` may also be dropped.
+// Then, the set of parenthesis surrounding the parameter `name` may also be dropped.
 // The set of curly braces enveloping the body of the function may be dropped, as well.
 // Further, because an `Arrow Function` implicitly calls a `return` statement ...
 // No explicit `return` keyword is required, either!
+```
+
+### The Code B
+
+```javascript
 const capitalize = name => 
   // implicitly return the finished product of the function
   `${name.charAt(0).toUpperCase()}${name.slice(1)}`;
@@ -185,15 +191,21 @@ const capitalize = name =>
 console.log(capitalize('roberto'))
 ```
 
-### Higher Order
+## Higher Order
 
-### The `
+**Note**. All callback functions are `Higher Order` functions
+
+### The Code C
 
 ```javascript
 function greetUser(name, callback) {
   return callback(capitalize(name));
 }
+```
 
+### The Algorithmic Steps
+
+```javascript
 // Remember from above ...
 // Insert the fat arrow `=>` between the declared function attribute(s), and
 // The first curly brace.
@@ -202,11 +214,11 @@ function greetUser(name, callback) {
 // });
 
 // console.log(result);
+```
 
-// ------------------------------------------------------------------------
-// Note. All callback functions are `Higher Order` functions
-// ------------------------------------------------------------------------
+### The Code D
 
+```javascript
 const result = greetUser(user.name, name => `Hi there, ${name}`);
 console.log(result)
 ```
