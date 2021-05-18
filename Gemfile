@@ -279,7 +279,7 @@ gem 'liquid', '4.0.3'
 #
 gem 'minima', '2.5.1'
 #
-gem 'nokogiri', '1.11.2'
+gem 'nokogiri', '1.11.4'
 #
 gem 'rouge', '3.26.0'
 #
