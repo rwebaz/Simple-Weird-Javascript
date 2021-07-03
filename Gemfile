@@ -1,5 +1,5 @@
 # 
-# Gemfile ver 041721 Satellite Repo
+# Gemfile ver 070121 Satellite Repo
 # 
 # frozen_string_literal: true
 #
@@ -216,7 +216,7 @@ gem 'activesupport', '6.0.3.1'
 #
 gem 'github-pages-health-check', '1.17.0'
 #
-# gem 'github-pages', '214'
+# gem 'github-pages', '209'
 gem 'github-pages', '214'
 # 
 # Note. The `github-markdown` dependency is no longer
@@ -279,7 +279,8 @@ gem 'liquid', '4.0.3'
 #
 gem 'minima', '2.5.1'
 #
-gem 'nokogiri', '1.11.2'
+# gem 'nokogiri', '1.11.2'
+gem 'nokogiri', '>= 1.11.4'
 #
 gem 'rouge', '3.26.0'
 #

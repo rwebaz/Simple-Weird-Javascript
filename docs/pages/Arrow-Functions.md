@@ -231,7 +231,7 @@ More to come ...
 
 `Reed Barger`: [[1](#REEDBARGER){:.red}].
 
-For additional reference on the topic of `Ternary Operators` see the `Mozilla Developer Network`: [[2](#MDN){:.red}]
+For additional reference on the topic of `De-structuring` see the `Mozilla Developer Network`: [[2](#MDN){:.red}]
 
 For a working Internet development platform for Javascript `Closures` see `Scrimba`: [[3](#SCRIMBA){:.red}]
 
